@@ -9,7 +9,6 @@ const productRouter = require('./routes/routes');
 // inicializo a minha instancia do express;
 const app = express();
 
-
 app.use(cors());
 // habilito o midleware de json do express;
 app.use(express.json());
